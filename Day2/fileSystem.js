@@ -29,5 +29,7 @@ fs.mkdirSync("./React-App/public");
 fs.mkdirSync("./React-App/src");
 fs.mkdirSync("./React-App/src/components");
 fs.writeFileSync("./React-App/src/components/Home.jsx", "");
+fs.writeFileSync("./React-App/src/components/App.jsx", "");
+fs.writeFileSync("./React-App/Main.jsx", "");
 fs.writeFileSync("./React-App/index.html", "");
 fs.writeFileSync("./React-App/package.json", "");
