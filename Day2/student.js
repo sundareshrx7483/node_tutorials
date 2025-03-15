@@ -26,4 +26,4 @@ student.on("result", (grade) => {
   }
 });
 
-student.emit("result", "distinction");
+student.emit("result", "fail");

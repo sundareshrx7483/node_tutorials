@@ -6,12 +6,11 @@ let emitter = new EventEmitter();
 emitter.once("eat", () => {
   console.log("I am going to eat apple at once in a day");
 });
-emitter.once("eat", () => {
+emitter.on("eat", () => {
   console.log("I am going to eat apple at once in a day");
 });
 
-// emitter.emit("eat");
-// emitter.emit("eat");
+emitter.emit("eat");
 
 console.log(emitter.listenerCount("eat"));
-console.log(EventEmitter);
+// console.log(EventEmitter);
